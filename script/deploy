@@ -1,7 +1,7 @@
 #!/bin/sh
  
 ssh ubuntu@172.31.27.242 <<EOF
-  cd ~/agile-pilot
+  cd ~/Repositories/agile-pilot
   git pull
   npm install --production
   forever restartall
